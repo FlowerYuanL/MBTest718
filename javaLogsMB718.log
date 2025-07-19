@@ -1,0 +1,1234 @@
+2025-07-18 17:01:44,841 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-18 17:01:44,852 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-18 17:01:44,855 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-18 17:01:44,856 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-18 17:01:44,856 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-18 17:01:44,857 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-18 17:01:44,857 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-18 17:01:44,878 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:01:44,878 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:01:44,878 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:01:44,878 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:01:44,880 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-18 17:01:44,880 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 17:01:44,881 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-18 17:01:44,881 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-18 17:01:44,971 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Opening JDBC Connection
+2025-07-18 17:01:45,172 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Created connection 1948471365.
+2025-07-18 17:01:45,172 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 17:01:45,175 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileById] - [DEBUG] ==>  Preparing: SELECT * FROM users where id = ?
+2025-07-18 17:01:45,197 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-18 17:01:45,266 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileById] - [DEBUG] <==      Total: 1
+2025-07-18 17:01:45,268 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 17:01:45,269 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 17:01:45,269 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Returned connection 1948471365 to pool.
+2025-07-18 17:02:16,942 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-18 17:02:16,949 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-18 17:02:16,952 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-18 17:02:16,952 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-18 17:02:16,952 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-18 17:02:16,952 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-18 17:02:16,952 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-18 17:02:16,967 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:02:16,968 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:02:16,968 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:02:16,968 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:02:16,970 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-18 17:02:16,971 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 17:02:16,971 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-18 17:02:16,971 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-18 17:02:17,061 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Opening JDBC Connection
+2025-07-18 17:02:17,219 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Created connection 1948471365.
+2025-07-18 17:02:17,219 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 17:02:17,222 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileById] - [DEBUG] ==>  Preparing: SELECT * FROM users where id = ?
+2025-07-18 17:02:17,244 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-18 17:02:17,303 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileById] - [DEBUG] <==      Total: 1
+2025-07-18 17:02:17,304 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] ==>  Preparing: SELECT * FROM user_profiles WHERE user_id = ?
+2025-07-18 17:02:17,305 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-18 17:02:17,307 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] <==      Total: 1
+2025-07-18 17:02:17,307 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 17:02:17,308 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 17:02:17,309 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Returned connection 1948471365 to pool.
+2025-07-18 17:06:40,648 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-18 17:06:40,656 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-18 17:06:40,661 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-18 17:06:40,661 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-18 17:06:40,661 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-18 17:06:40,663 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-18 17:06:40,663 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-18 17:06:40,677 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:06:40,677 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:06:40,677 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:06:40,677 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:06:40,679 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-18 17:06:40,680 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 17:06:40,680 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-18 17:06:40,680 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-18 17:06:40,765 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Opening JDBC Connection
+2025-07-18 17:06:40,934 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Created connection 1948471365.
+2025-07-18 17:06:40,934 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 17:06:40,938 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileById] - [DEBUG] ==>  Preparing: SELECT * FROM users where id = ?
+2025-07-18 17:06:40,962 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-18 17:06:41,020 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileById] - [DEBUG] <==      Total: 1
+2025-07-18 17:06:41,022 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] ==>  Preparing: SELECT * FROM user_profiles WHERE user_id = ?
+2025-07-18 17:06:41,022 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-18 17:06:41,025 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] <==      Total: 1
+2025-07-18 17:06:41,026 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 17:06:41,026 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 17:06:41,026 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Returned connection 1948471365 to pool.
+2025-07-18 17:10:00,370 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-18 17:10:00,376 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-18 17:10:00,380 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-18 17:10:00,380 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-18 17:10:00,380 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-18 17:10:00,381 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-18 17:10:00,381 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-18 17:10:00,396 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:10:00,396 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:10:00,396 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:10:00,396 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:10:00,398 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-18 17:10:00,399 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 17:10:00,399 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-18 17:10:00,399 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-18 17:10:00,479 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Opening JDBC Connection
+2025-07-18 17:10:00,806 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Created connection 728885526.
+2025-07-18 17:10:00,806 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2b71e916]
+2025-07-18 17:10:00,810 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileById] - [DEBUG] ==>  Preparing: SELECT * FROM users where id = ?
+2025-07-18 17:10:00,832 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-18 17:10:00,880 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileById] - [DEBUG] <==      Total: 1
+2025-07-18 17:10:00,882 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] ==>  Preparing: SELECT * FROM user_profiles WHERE user_id = ?
+2025-07-18 17:10:00,882 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-18 17:10:00,884 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] <==      Total: 1
+2025-07-18 17:10:00,884 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2b71e916]
+2025-07-18 17:10:00,884 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2b71e916]
+2025-07-18 17:10:00,885 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Returned connection 728885526 to pool.
+2025-07-18 17:15:31,084 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-18 17:15:31,089 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-18 17:15:31,093 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-18 17:15:31,094 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-18 17:15:31,094 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-18 17:15:31,094 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-18 17:15:31,095 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-18 17:15:31,109 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:15:31,109 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:15:31,109 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:15:31,109 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:15:31,112 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-18 17:15:31,113 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 17:15:31,113 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-18 17:15:31,113 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-18 17:16:51,422 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-18 17:16:51,427 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-18 17:16:51,430 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-18 17:16:51,431 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-18 17:16:51,431 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-18 17:16:51,431 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-18 17:16:51,431 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-18 17:16:51,450 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:16:51,450 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:16:51,451 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:16:51,451 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:16:51,453 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-18 17:16:51,453 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 17:16:51,454 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-18 17:16:51,454 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-18 17:17:06,956 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-18 17:17:06,963 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-18 17:17:06,966 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-18 17:17:06,966 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-18 17:17:06,967 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-18 17:17:06,967 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-18 17:17:06,967 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-18 17:17:06,980 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:17:06,980 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:17:06,980 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:17:06,980 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:17:06,983 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-18 17:17:06,984 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 17:17:06,984 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-18 17:17:06,984 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-18 17:17:07,054 [main] [com.lsxp.mapper.UserMapperTest] - [INFO] queryUserAndProfileById
+2025-07-18 17:17:07,061 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Opening JDBC Connection
+2025-07-18 17:17:07,201 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Created connection 1948471365.
+2025-07-18 17:17:07,201 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 17:17:07,204 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileById] - [DEBUG] ==>  Preparing: SELECT * FROM users where id = ?
+2025-07-18 17:17:07,224 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-18 17:17:07,281 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileById] - [DEBUG] <==      Total: 1
+2025-07-18 17:17:07,285 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] ==>  Preparing: SELECT * FROM user_profiles WHERE user_id = ?
+2025-07-18 17:17:07,286 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-18 17:17:07,288 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] <==      Total: 1
+2025-07-18 17:17:07,288 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 17:17:07,289 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 17:17:07,289 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Returned connection 1948471365 to pool.
+2025-07-18 17:39:17,042 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-18 17:39:17,051 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-18 17:39:17,054 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-18 17:39:17,055 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-18 17:39:17,055 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-18 17:39:17,056 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-18 17:39:17,056 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-18 17:39:17,074 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:39:17,074 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:39:17,074 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:39:17,074 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:39:17,078 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-18 17:39:17,078 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 17:39:17,079 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-18 17:39:17,079 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-18 17:39:17,157 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Opening JDBC Connection
+2025-07-18 17:39:17,300 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Created connection 1948471365.
+2025-07-18 17:39:17,302 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 17:39:17,304 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileByIdResult] - [DEBUG] ==>  Preparing: SELECT * FROM users where id = ?
+2025-07-18 17:39:17,325 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileByIdResult] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-18 17:39:17,393 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileByIdResult] - [DEBUG] <==      Total: 1
+2025-07-18 17:39:17,395 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] ==>  Preparing: SELECT * FROM user_profiles WHERE user_id = ?
+2025-07-18 17:39:17,395 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-18 17:39:17,398 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] <==      Total: 1
+2025-07-18 17:39:17,398 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 17:39:17,399 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 17:39:17,400 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Returned connection 1948471365 to pool.
+2025-07-18 17:46:13,433 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-18 17:46:13,441 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-18 17:46:13,445 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-18 17:46:13,446 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-18 17:46:13,447 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-18 17:46:13,447 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-18 17:46:13,448 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-18 17:46:13,467 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:46:13,467 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:46:13,467 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:46:13,467 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:46:13,469 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-18 17:46:13,469 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 17:46:13,470 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-18 17:46:13,470 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-18 17:56:32,375 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-18 17:56:32,382 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-18 17:56:32,385 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-18 17:56:32,385 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-18 17:56:32,385 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-18 17:56:32,386 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-18 17:56:32,386 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-18 17:56:32,400 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:56:32,400 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:56:32,400 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:56:32,400 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 17:56:32,402 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-18 17:56:32,402 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 17:56:32,402 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-18 17:56:32,402 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-18 17:56:32,477 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Opening JDBC Connection
+2025-07-18 17:56:32,622 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Created connection 1948471365.
+2025-07-18 17:56:32,622 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 17:56:32,626 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileByIdResult] - [DEBUG] ==>  Preparing: SELECT * FROM users as u left join user_profiles as uf on u.id = uf.user_id and id = ?
+2025-07-18 17:56:32,652 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileByIdResult] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-18 17:56:32,711 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileByIdResult] - [DEBUG] <==      Total: 3
+2025-07-18 17:56:32,714 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 17:56:32,715 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 17:56:32,715 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Returned connection 1948471365 to pool.
+2025-07-18 18:00:29,042 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-18 18:00:29,048 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-18 18:00:29,050 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-18 18:00:29,051 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-18 18:00:29,051 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-18 18:00:29,052 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-18 18:00:29,053 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-18 18:00:29,066 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:00:29,066 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:00:29,066 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:00:29,066 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:00:29,069 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-18 18:00:29,069 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 18:00:29,069 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-18 18:00:29,069 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-18 18:00:29,151 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Opening JDBC Connection
+2025-07-18 18:00:29,301 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Created connection 1948471365.
+2025-07-18 18:00:29,301 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 18:00:29,305 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileByIdResult] - [DEBUG] ==>  Preparing: SELECT * FROM users as u left join user_profiles as uf on id = ? and u.id = uf.user_id
+2025-07-18 18:00:29,331 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileByIdResult] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-18 18:00:29,386 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileByIdResult] - [DEBUG] <==      Total: 3
+2025-07-18 18:00:29,389 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 18:00:29,389 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 18:00:29,389 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Returned connection 1948471365 to pool.
+2025-07-18 18:01:30,331 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-18 18:01:30,338 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-18 18:01:30,341 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-18 18:01:30,341 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-18 18:01:30,341 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-18 18:01:30,341 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-18 18:01:30,341 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-18 18:01:30,355 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:01:30,355 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:01:30,355 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:01:30,355 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:01:30,358 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-18 18:01:30,358 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 18:01:30,358 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-18 18:01:30,358 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-18 18:01:30,441 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Opening JDBC Connection
+2025-07-18 18:01:30,593 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Created connection 1948471365.
+2025-07-18 18:01:30,593 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 18:01:30,596 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileByIdResult] - [DEBUG] ==>  Preparing: SELECT * FROM users as u left join user_profiles as uf on id = ? and u.id = uf.user_id
+2025-07-18 18:01:30,617 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileByIdResult] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-18 18:01:30,670 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileByIdResult] - [DEBUG] <==      Total: 3
+2025-07-18 18:01:30,672 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] ==>  Preparing: SELECT * FROM user_profiles WHERE user_id = ?
+2025-07-18 18:01:30,673 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-18 18:01:30,674 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] <==      Total: 1
+2025-07-18 18:01:30,674 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] ==>  Preparing: SELECT * FROM user_profiles WHERE user_id = ?
+2025-07-18 18:01:30,675 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-18 18:01:30,676 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] <==      Total: 1
+2025-07-18 18:01:30,676 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] ==>  Preparing: SELECT * FROM user_profiles WHERE user_id = ?
+2025-07-18 18:01:30,676 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] ==> Parameters: 3(Integer)
+2025-07-18 18:01:30,677 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] <==      Total: 1
+2025-07-18 18:01:30,677 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 18:01:30,677 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 18:01:30,677 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Returned connection 1948471365 to pool.
+2025-07-18 18:02:05,776 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-18 18:02:05,783 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-18 18:02:05,786 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-18 18:02:05,786 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-18 18:02:05,787 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-18 18:02:05,787 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-18 18:02:05,788 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-18 18:02:05,801 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:02:05,801 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:02:05,802 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:02:05,802 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:02:05,804 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-18 18:02:05,804 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 18:02:05,805 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-18 18:02:05,805 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-18 18:02:05,883 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Opening JDBC Connection
+2025-07-18 18:02:06,031 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Created connection 1948471365.
+2025-07-18 18:02:06,031 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 18:02:06,034 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileByIdResult] - [DEBUG] ==>  Preparing: SELECT * FROM users as u left join user_profiles as uf on u.id = ? and u.id = uf.user_id
+2025-07-18 18:02:06,057 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileByIdResult] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-18 18:02:06,109 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileByIdResult] - [DEBUG] <==      Total: 3
+2025-07-18 18:02:06,111 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] ==>  Preparing: SELECT * FROM user_profiles WHERE user_id = ?
+2025-07-18 18:02:06,111 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-18 18:02:06,112 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] <==      Total: 1
+2025-07-18 18:02:06,113 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] ==>  Preparing: SELECT * FROM user_profiles WHERE user_id = ?
+2025-07-18 18:02:06,113 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-18 18:02:06,115 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] <==      Total: 1
+2025-07-18 18:02:06,115 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] ==>  Preparing: SELECT * FROM user_profiles WHERE user_id = ?
+2025-07-18 18:02:06,115 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] ==> Parameters: 3(Integer)
+2025-07-18 18:02:06,116 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] <==      Total: 1
+2025-07-18 18:02:06,116 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 18:02:06,117 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 18:02:06,117 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Returned connection 1948471365 to pool.
+2025-07-18 18:07:51,687 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-18 18:07:51,693 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-18 18:07:51,696 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-18 18:07:51,697 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-18 18:07:51,698 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-18 18:07:51,698 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-18 18:07:51,698 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-18 18:07:51,713 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:07:51,713 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:07:51,713 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:07:51,713 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:07:51,716 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-18 18:07:51,716 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 18:07:51,716 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-18 18:07:51,716 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-18 18:08:12,482 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-18 18:08:12,488 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-18 18:08:12,492 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-18 18:08:12,492 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-18 18:08:12,492 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-18 18:08:12,493 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-18 18:08:12,493 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-18 18:08:12,506 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:08:12,506 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:08:12,506 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:08:12,506 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:08:12,508 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-18 18:08:12,508 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 18:08:12,509 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-18 18:08:12,509 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-18 18:09:16,230 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-18 18:09:16,236 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-18 18:09:16,239 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-18 18:09:16,239 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-18 18:09:16,240 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-18 18:09:16,240 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-18 18:09:16,240 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-18 18:09:16,254 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:09:16,254 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:09:16,254 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:09:16,254 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:09:16,256 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-18 18:09:16,257 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 18:09:16,257 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-18 18:09:16,257 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-18 18:09:33,626 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-18 18:09:33,633 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-18 18:09:33,637 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-18 18:09:33,638 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-18 18:09:33,638 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-18 18:09:33,639 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-18 18:09:33,639 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-18 18:09:33,654 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:09:33,654 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:09:33,654 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:09:33,654 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:09:33,657 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-18 18:09:33,657 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 18:09:33,657 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-18 18:09:33,657 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-18 18:09:58,719 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-18 18:09:58,725 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-18 18:09:58,730 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-18 18:09:58,730 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-18 18:09:58,732 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-18 18:09:58,732 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-18 18:09:58,733 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-18 18:09:58,749 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:09:58,750 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:09:58,750 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:09:58,750 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:09:58,752 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-18 18:09:58,752 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 18:09:58,752 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-18 18:09:58,752 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-18 18:10:45,880 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-18 18:10:45,889 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-18 18:10:45,895 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-18 18:10:45,896 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-18 18:10:45,896 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-18 18:10:45,896 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-18 18:10:45,897 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-18 18:10:45,916 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:10:45,916 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:10:45,916 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:10:45,916 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:10:45,919 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-18 18:10:45,920 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 18:10:45,920 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-18 18:10:45,920 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-18 18:12:38,149 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-18 18:12:38,154 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-18 18:12:38,157 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-18 18:12:38,158 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-18 18:12:38,158 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-18 18:12:38,159 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-18 18:12:38,159 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-18 18:12:38,172 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:12:38,172 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:12:38,172 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:12:38,172 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 18:12:38,175 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-18 18:12:38,175 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 18:12:38,175 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-18 18:12:38,175 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-18 18:12:38,257 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Opening JDBC Connection
+2025-07-18 18:12:38,402 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Created connection 1948471365.
+2025-07-18 18:12:38,402 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 18:12:38,405 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileByIdResult] - [DEBUG] ==>  Preparing: SELECT * FROM users as u left join user_profiles as uf on u.id = ? where u.id = uf.user_id
+2025-07-18 18:12:38,426 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileByIdResult] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-18 18:12:38,450 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileByIdResult] - [DEBUG] <==      Total: 1
+2025-07-18 18:12:38,452 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 18:12:38,452 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 18:12:38,452 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Returned connection 1948471365 to pool.
+2025-07-18 20:22:38,574 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-18 20:22:38,580 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-18 20:22:38,585 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-18 20:22:38,585 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-18 20:22:38,586 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-18 20:22:38,586 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-18 20:22:38,586 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-18 20:22:38,601 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:22:38,601 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:22:38,601 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:22:38,601 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:22:38,604 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-18 20:22:38,604 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 20:22:38,605 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-18 20:22:38,605 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-18 20:22:38,692 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Opening JDBC Connection
+2025-07-18 20:22:38,853 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Created connection 1948471365.
+2025-07-18 20:22:38,853 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 20:22:38,856 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] ==>  Preparing: SELECT * FROM user_profiles WHERE user_id = ?
+2025-07-18 20:22:38,878 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-18 20:22:38,906 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] <==      Total: 1
+2025-07-18 20:22:38,908 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 20:22:38,908 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 20:22:38,908 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Returned connection 1948471365 to pool.
+2025-07-18 20:22:58,124 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-18 20:22:58,130 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-18 20:22:58,133 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-18 20:22:58,134 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-18 20:22:58,134 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-18 20:22:58,134 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-18 20:22:58,134 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-18 20:22:58,148 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:22:58,148 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:22:58,148 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:22:58,150 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:22:58,152 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-18 20:22:58,152 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 20:22:58,153 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-18 20:22:58,153 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-18 20:22:58,228 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Opening JDBC Connection
+2025-07-18 20:22:58,368 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Created connection 898694235.
+2025-07-18 20:22:58,368 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3590fc5b]
+2025-07-18 20:22:58,370 [main] [com.lsxp.mapper.UserMapper.queryAll] - [DEBUG] ==>  Preparing: SELECT * FROM users
+2025-07-18 20:22:58,390 [main] [com.lsxp.mapper.UserMapper.queryAll] - [DEBUG] ==> Parameters: 
+2025-07-18 20:22:58,414 [main] [com.lsxp.mapper.UserMapper.queryAll] - [DEBUG] <==      Total: 3
+2025-07-18 20:22:58,416 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3590fc5b]
+2025-07-18 20:22:58,416 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3590fc5b]
+2025-07-18 20:22:58,417 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Returned connection 898694235 to pool.
+2025-07-18 20:23:20,911 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-18 20:23:20,917 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-18 20:23:20,921 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-18 20:23:20,921 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-18 20:23:20,921 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-18 20:23:20,922 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-18 20:23:20,922 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-18 20:23:20,934 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:23:20,935 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:23:20,935 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:23:20,935 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:23:20,937 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-18 20:23:20,937 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 20:23:20,937 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-18 20:23:20,937 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-18 20:23:21,016 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Opening JDBC Connection
+2025-07-18 20:23:21,158 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Created connection 1948471365.
+2025-07-18 20:23:21,158 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 20:23:21,162 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileByIdResult] - [DEBUG] ==>  Preparing: SELECT * FROM users as u left join user_profiles as uf on u.id = ? where u.id = uf.user_id
+2025-07-18 20:23:21,183 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileByIdResult] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-18 20:23:21,207 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileByIdResult] - [DEBUG] <==      Total: 1
+2025-07-18 20:23:21,208 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 20:23:21,210 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 20:23:21,210 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Returned connection 1948471365 to pool.
+2025-07-18 20:24:36,810 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-18 20:24:36,816 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-18 20:24:36,818 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-18 20:24:36,818 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-18 20:24:36,818 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-18 20:24:36,820 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-18 20:24:36,820 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-18 20:24:36,832 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:24:36,833 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:24:36,833 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:24:36,833 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:24:36,835 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-18 20:24:36,835 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 20:24:36,835 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-18 20:24:36,836 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-18 20:24:36,916 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Opening JDBC Connection
+2025-07-18 20:24:37,061 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Created connection 1948471365.
+2025-07-18 20:24:37,061 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 20:24:37,064 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileByIdResult] - [DEBUG] ==>  Preparing: SELECT * FROM users as u left join user_profiles as uf on u.id = uf.user_id where u.id = ?
+2025-07-18 20:24:37,087 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileByIdResult] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-18 20:24:37,111 [main] [com.lsxp.mapper.UserMapper.queryUserAndProfileByIdResult] - [DEBUG] <==      Total: 1
+2025-07-18 20:24:37,113 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 20:24:37,114 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@74235045]
+2025-07-18 20:24:37,114 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Returned connection 1948471365 to pool.
+2025-07-18 20:43:19,298 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-18 20:43:19,304 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-18 20:43:19,307 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-18 20:43:19,308 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-18 20:43:19,308 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-18 20:43:19,309 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-18 20:43:19,310 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-18 20:43:19,325 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:43:19,325 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:43:19,325 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:43:19,325 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:43:19,328 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 20:43:19,328 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-18 20:43:19,328 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 20:43:19,328 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndProfileMapper matches criteria [is assignable to Object]
+2025-07-18 20:43:19,328 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-18 20:43:19,329 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-18 20:43:19,489 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Opening JDBC Connection
+2025-07-18 20:43:19,636 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Created connection 1735507635.
+2025-07-18 20:43:19,637 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6771beb3]
+2025-07-18 20:43:19,640 [main] [com.lsxp.mapper.UserAndProfileMapper.queryByName] - [DEBUG] ==>  Preparing: SELECT * FROM Users u left join user_profiles up on u.id = up.user_id where u.username like concat('%','{name}','%')
+2025-07-18 20:43:19,669 [main] [com.lsxp.mapper.UserAndProfileMapper.queryByName] - [DEBUG] ==> Parameters: 
+2025-07-18 20:43:19,685 [main] [com.lsxp.mapper.UserAndProfileMapper.queryByName] - [DEBUG] <==      Total: 0
+2025-07-18 20:43:19,687 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6771beb3]
+2025-07-18 20:43:19,688 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6771beb3]
+2025-07-18 20:43:19,688 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Returned connection 1735507635 to pool.
+2025-07-18 20:43:56,006 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-18 20:43:56,012 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-18 20:43:56,015 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-18 20:43:56,016 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-18 20:43:56,016 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-18 20:43:56,016 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-18 20:43:56,017 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-18 20:43:56,029 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:43:56,029 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:43:56,029 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:43:56,030 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:43:56,032 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 20:43:56,032 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-18 20:43:56,032 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 20:43:56,033 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndProfileMapper matches criteria [is assignable to Object]
+2025-07-18 20:43:56,033 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-18 20:43:56,033 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-18 20:43:56,113 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Opening JDBC Connection
+2025-07-18 20:43:56,255 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Created connection 1735507635.
+2025-07-18 20:43:56,255 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6771beb3]
+2025-07-18 20:43:56,257 [main] [com.lsxp.mapper.UserAndProfileMapper.queryByName] - [DEBUG] ==>  Preparing: SELECT * FROM Users u left join user_profiles up on u.id = up.user_id where u.username like concat('%','{name}','%')
+2025-07-18 20:43:56,285 [main] [com.lsxp.mapper.UserAndProfileMapper.queryByName] - [DEBUG] ==> Parameters: 
+2025-07-18 20:43:56,305 [main] [com.lsxp.mapper.UserAndProfileMapper.queryByName] - [DEBUG] <==      Total: 0
+2025-07-18 20:43:56,307 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6771beb3]
+2025-07-18 20:43:56,308 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6771beb3]
+2025-07-18 20:43:56,308 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Returned connection 1735507635 to pool.
+2025-07-18 20:44:16,977 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-18 20:44:16,982 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-18 20:44:16,985 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-18 20:44:16,986 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-18 20:44:16,986 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-18 20:44:16,986 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-18 20:44:16,986 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-18 20:44:16,999 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:44:16,999 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:44:16,999 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:44:17,000 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:44:17,002 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 20:44:17,002 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-18 20:44:17,002 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 20:44:17,003 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndProfileMapper matches criteria [is assignable to Object]
+2025-07-18 20:44:17,003 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-18 20:44:17,003 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-18 20:44:17,086 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Opening JDBC Connection
+2025-07-18 20:44:17,228 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Created connection 1735507635.
+2025-07-18 20:44:17,229 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6771beb3]
+2025-07-18 20:44:17,232 [main] [com.lsxp.mapper.UserAndProfileMapper.queryByName] - [DEBUG] ==>  Preparing: SELECT * FROM Users u left join user_profiles up on u.id = up.user_id where u.username like concat('%','{name}','%')
+2025-07-18 20:44:17,260 [main] [com.lsxp.mapper.UserAndProfileMapper.queryByName] - [DEBUG] ==> Parameters: 
+2025-07-18 20:44:17,279 [main] [com.lsxp.mapper.UserAndProfileMapper.queryByName] - [DEBUG] <==      Total: 0
+2025-07-18 20:44:17,282 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6771beb3]
+2025-07-18 20:44:17,282 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6771beb3]
+2025-07-18 20:44:17,283 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Returned connection 1735507635 to pool.
+2025-07-18 20:44:50,624 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-18 20:44:50,632 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-18 20:44:50,636 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-18 20:44:50,636 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-18 20:44:50,637 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-18 20:44:50,637 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-18 20:44:50,637 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-18 20:44:50,654 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:44:50,654 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:44:50,654 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:44:50,654 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:44:50,656 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 20:44:50,656 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-18 20:44:50,657 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 20:44:50,657 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndProfileMapper matches criteria [is assignable to Object]
+2025-07-18 20:44:50,657 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-18 20:44:50,658 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-18 20:44:50,746 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Opening JDBC Connection
+2025-07-18 20:44:50,944 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Created connection 1647809929.
+2025-07-18 20:44:50,944 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@62379589]
+2025-07-18 20:44:50,948 [main] [com.lsxp.mapper.UserAndProfileMapper.queryByName] - [DEBUG] ==>  Preparing: SELECT * FROM Users u left join user_profiles up on u.id = up.user_id where u.username like concat('%','?','%')
+2025-07-18 20:44:50,978 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@62379589]
+2025-07-18 20:44:50,978 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@62379589]
+2025-07-18 20:44:50,978 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Returned connection 1647809929 to pool.
+2025-07-18 20:44:55,778 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-18 20:44:55,784 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-18 20:44:55,787 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-18 20:44:55,787 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-18 20:44:55,788 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-18 20:44:55,788 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-18 20:44:55,788 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-18 20:44:55,803 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:44:55,803 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:44:55,803 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:44:55,803 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:44:55,806 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 20:44:55,806 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-18 20:44:55,806 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 20:44:55,807 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndProfileMapper matches criteria [is assignable to Object]
+2025-07-18 20:44:55,807 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-18 20:44:55,807 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-18 20:44:55,891 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Opening JDBC Connection
+2025-07-18 20:44:56,034 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Created connection 1735507635.
+2025-07-18 20:44:56,034 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6771beb3]
+2025-07-18 20:44:56,037 [main] [com.lsxp.mapper.UserAndProfileMapper.queryByName] - [DEBUG] ==>  Preparing: SELECT * FROM Users u left join user_profiles up on u.id = up.user_id where u.username like concat('%','?','%')
+2025-07-18 20:44:56,066 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6771beb3]
+2025-07-18 20:44:56,066 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6771beb3]
+2025-07-18 20:44:56,067 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Returned connection 1735507635 to pool.
+2025-07-18 20:45:13,204 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-18 20:45:13,211 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-18 20:45:13,214 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-18 20:45:13,214 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-18 20:45:13,215 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-18 20:45:13,215 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-18 20:45:13,215 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-18 20:45:13,227 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:45:13,228 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:45:13,228 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:45:13,228 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 20:45:13,230 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 20:45:13,230 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-18 20:45:13,231 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 20:45:13,231 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndProfileMapper matches criteria [is assignable to Object]
+2025-07-18 20:45:13,232 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-18 20:45:13,232 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-18 20:45:13,317 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Opening JDBC Connection
+2025-07-18 20:45:13,465 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Created connection 1735507635.
+2025-07-18 20:45:13,465 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6771beb3]
+2025-07-18 20:45:13,468 [main] [com.lsxp.mapper.UserAndProfileMapper.queryByName] - [DEBUG] ==>  Preparing: SELECT * FROM Users u left join user_profiles up on u.id = up.user_id where u.username like concat('%',?,'%')
+2025-07-18 20:45:13,498 [main] [com.lsxp.mapper.UserAndProfileMapper.queryByName] - [DEBUG] ==> Parameters: o(String)
+2025-07-18 20:45:13,514 [main] [com.lsxp.mapper.UserAndProfileMapper.queryByName] - [DEBUG] <==      Total: 2
+2025-07-18 20:45:13,516 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6771beb3]
+2025-07-18 20:45:13,517 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6771beb3]
+2025-07-18 20:45:13,517 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Returned connection 1735507635 to pool.
+2025-07-18 21:28:02,819 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-18 21:28:02,825 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-18 21:28:02,827 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-18 21:28:02,828 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-18 21:28:02,828 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-18 21:28:02,828 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-18 21:28:02,829 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-18 21:28:02,842 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 21:28:02,842 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 21:28:02,842 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 21:28:02,842 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 21:28:02,844 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndPostMapperTest matches criteria [is assignable to Object]
+2025-07-18 21:28:02,844 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 21:28:02,845 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-18 21:28:02,845 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 21:28:02,845 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndPostMapper matches criteria [is assignable to Object]
+2025-07-18 21:28:02,845 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndProfileMapper matches criteria [is assignable to Object]
+2025-07-18 21:28:02,846 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-18 21:28:02,846 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-18 21:28:02,935 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Opening JDBC Connection
+2025-07-18 21:28:03,083 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Created connection 678433396.
+2025-07-18 21:28:03,083 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@28701274]
+2025-07-18 21:28:03,086 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists] - [DEBUG] ==>  Preparing: select * from users u left join posts p on u.id = p.user_id where u.id = ?
+2025-07-18 21:28:03,105 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-18 21:28:03,125 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists] - [DEBUG] <==      Total: 2
+2025-07-18 21:28:03,126 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@28701274]
+2025-07-18 21:28:03,127 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@28701274]
+2025-07-18 21:28:03,127 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Returned connection 678433396 to pool.
+2025-07-18 21:29:44,294 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-18 21:29:44,300 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-18 21:29:44,304 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-18 21:29:44,304 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-18 21:29:44,304 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-18 21:29:44,305 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-18 21:29:44,305 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-18 21:29:44,317 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 21:29:44,318 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 21:29:44,318 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 21:29:44,318 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 21:29:44,320 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndPostMapperTest matches criteria [is assignable to Object]
+2025-07-18 21:29:44,321 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 21:29:44,321 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-18 21:29:44,322 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 21:29:44,322 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndPostMapper matches criteria [is assignable to Object]
+2025-07-18 21:29:44,322 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndProfileMapper matches criteria [is assignable to Object]
+2025-07-18 21:29:44,322 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-18 21:29:44,323 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-18 21:29:44,420 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Opening JDBC Connection
+2025-07-18 21:29:44,574 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Created connection 678433396.
+2025-07-18 21:29:44,575 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@28701274]
+2025-07-18 21:29:44,579 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists] - [DEBUG] ==>  Preparing: select * from users u left join posts p on u.id = p.user_id where u.id = ?
+2025-07-18 21:29:44,604 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-18 21:29:44,625 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists] - [DEBUG] <==      Total: 2
+2025-07-18 21:29:44,627 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@28701274]
+2025-07-18 21:29:44,628 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@28701274]
+2025-07-18 21:29:44,628 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Returned connection 678433396 to pool.
+2025-07-18 21:33:17,534 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-18 21:33:17,541 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-18 21:33:17,544 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-18 21:33:17,545 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-18 21:33:17,545 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-18 21:33:17,546 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-18 21:33:17,546 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-18 21:33:17,564 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 21:33:17,564 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 21:33:17,564 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 21:33:17,564 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 21:33:17,567 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndPostMapperTest matches criteria [is assignable to Object]
+2025-07-18 21:33:17,567 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 21:33:17,567 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-18 21:33:17,569 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 21:33:17,569 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndPostMapper matches criteria [is assignable to Object]
+2025-07-18 21:33:17,569 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndProfileMapper matches criteria [is assignable to Object]
+2025-07-18 21:33:17,570 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-18 21:33:17,570 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-18 21:33:17,675 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Opening JDBC Connection
+2025-07-18 21:33:17,842 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Created connection 678433396.
+2025-07-18 21:33:17,842 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@28701274]
+2025-07-18 21:33:17,845 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists] - [DEBUG] ==>  Preparing: select u.id AS uid, u.username, p.id AS pid, p.user_id, p.content from users u left join posts p on u.id = p.user_id where u.id = ?
+2025-07-18 21:33:17,868 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-18 21:33:17,887 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists] - [DEBUG] <==      Total: 2
+2025-07-18 21:33:17,890 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@28701274]
+2025-07-18 21:33:17,890 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@28701274]
+2025-07-18 21:33:17,890 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Returned connection 678433396 to pool.
+2025-07-18 21:34:02,562 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-18 21:34:02,568 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-18 21:34:02,571 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-18 21:34:02,572 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-18 21:34:02,572 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-18 21:34:02,572 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-18 21:34:02,572 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-18 21:34:02,586 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 21:34:02,586 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 21:34:02,586 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 21:34:02,586 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-18 21:34:02,589 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndPostMapperTest matches criteria [is assignable to Object]
+2025-07-18 21:34:02,589 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 21:34:02,589 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-18 21:34:02,589 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-18 21:34:02,589 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndPostMapper matches criteria [is assignable to Object]
+2025-07-18 21:34:02,589 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndProfileMapper matches criteria [is assignable to Object]
+2025-07-18 21:34:02,590 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-18 21:34:02,590 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-18 21:34:02,686 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Opening JDBC Connection
+2025-07-18 21:34:02,838 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Created connection 678433396.
+2025-07-18 21:34:02,838 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@28701274]
+2025-07-18 21:34:02,841 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists] - [DEBUG] ==>  Preparing: select u.id AS uid, u.username, p.id AS pid, p.user_id, p.content from users u left join posts p on u.id = p.user_id where u.id = ?
+2025-07-18 21:34:02,867 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-18 21:34:02,889 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists] - [DEBUG] <==      Total: 3
+2025-07-18 21:34:02,891 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@28701274]
+2025-07-18 21:34:02,892 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@28701274]
+2025-07-18 21:34:02,892 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Returned connection 678433396 to pool.
+2025-07-19 08:28:30,580 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-19 08:28:30,605 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-19 08:28:30,611 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-19 08:28:30,612 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-19 08:28:30,613 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-19 08:28:30,613 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-19 08:28:30,614 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-19 08:28:30,636 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-19 08:28:30,636 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-19 08:28:30,636 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-19 08:28:30,636 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-19 08:28:30,639 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndPostMapperTest matches criteria [is assignable to Object]
+2025-07-19 08:28:30,639 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndProfileMapperTest matches criteria [is assignable to Object]
+2025-07-19 08:28:30,640 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-19 08:28:30,641 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-19 08:28:30,642 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndPostMapper matches criteria [is assignable to Object]
+2025-07-19 08:28:30,642 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndProfileMapper matches criteria [is assignable to Object]
+2025-07-19 08:28:30,642 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-19 08:28:30,642 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-19 08:28:30,782 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Opening JDBC Connection
+2025-07-19 08:28:31,052 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Created connection 678433396.
+2025-07-19 08:28:31,053 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@28701274]
+2025-07-19 08:28:31,055 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists] - [DEBUG] ==>  Preparing: select u.id AS uid, u.username, p.id AS pid, p.user_id, p.content from users u left join posts p on u.id = p.user_id where u.id = ?
+2025-07-19 08:28:31,076 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 08:28:31,099 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists] - [DEBUG] <==      Total: 3
+2025-07-19 08:28:31,101 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@28701274]
+2025-07-19 08:28:31,101 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@28701274]
+2025-07-19 08:28:31,102 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Returned connection 678433396 to pool.
+2025-07-19 08:43:12,567 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-19 08:43:12,573 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-19 08:43:12,576 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-19 08:43:12,576 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-19 08:43:12,577 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-19 08:43:12,577 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-19 08:43:12,577 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-19 08:43:12,592 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-19 08:43:12,592 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-19 08:43:12,592 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-19 08:43:12,592 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-19 08:43:12,594 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndPostMapperTest matches criteria [is assignable to Object]
+2025-07-19 08:43:12,595 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndProfileMapperTest matches criteria [is assignable to Object]
+2025-07-19 08:43:12,595 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-19 08:43:12,596 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-19 08:43:12,596 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndPostMapper matches criteria [is assignable to Object]
+2025-07-19 08:43:12,596 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndProfileMapper matches criteria [is assignable to Object]
+2025-07-19 08:43:12,597 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-19 08:43:12,597 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-19 08:43:12,691 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Opening JDBC Connection
+2025-07-19 08:43:12,837 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Created connection 331994761.
+2025-07-19 08:43:12,837 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@13c9d689]
+2025-07-19 08:43:12,840 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists2] - [DEBUG] ==>  Preparing: select id as uid,username from Users where id = ?
+2025-07-19 08:43:12,862 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists2] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 08:43:12,926 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists2] - [DEBUG] <==      Total: 1
+2025-07-19 08:43:12,928 [main] [com.lsxp.mapper.UserAndPostMapper.queryPostById] - [DEBUG] ==>  Preparing: select * FROM posts where user_id = ?
+2025-07-19 08:43:12,928 [main] [com.lsxp.mapper.UserAndPostMapper.queryPostById] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 08:43:12,930 [main] [com.lsxp.mapper.UserAndPostMapper.queryPostById] - [DEBUG] <==      Total: 3
+2025-07-19 08:43:12,931 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@13c9d689]
+2025-07-19 08:43:12,932 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@13c9d689]
+2025-07-19 08:43:12,933 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Returned connection 331994761 to pool.
+2025-07-19 08:44:26,013 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-19 08:44:26,021 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-19 08:44:26,025 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-19 08:44:26,025 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-19 08:44:26,026 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-19 08:44:26,026 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-19 08:44:26,027 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-19 08:44:26,044 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-19 08:44:26,044 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-19 08:44:26,044 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-19 08:44:26,044 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-19 08:44:26,047 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndPostMapperTest matches criteria [is assignable to Object]
+2025-07-19 08:44:26,047 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndProfileMapperTest matches criteria [is assignable to Object]
+2025-07-19 08:44:26,048 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-19 08:44:26,048 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-19 08:44:26,048 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndPostMapper matches criteria [is assignable to Object]
+2025-07-19 08:44:26,048 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndProfileMapper matches criteria [is assignable to Object]
+2025-07-19 08:44:26,049 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-19 08:44:26,049 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-19 08:44:26,146 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Opening JDBC Connection
+2025-07-19 08:44:26,312 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Created connection 2088371948.
+2025-07-19 08:44:26,312 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7c7a06ec]
+2025-07-19 08:44:26,316 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists2] - [DEBUG] ==>  Preparing: select id as uid,username from Users where id = ?
+2025-07-19 08:44:26,337 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists2] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 08:44:26,391 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists2] - [DEBUG] <==      Total: 1
+2025-07-19 08:44:26,394 [main] [com.lsxp.mapper.UserAndPostMapper.queryPostById] - [DEBUG] ==>  Preparing: select * FROM posts where user_id = ?
+2025-07-19 08:44:26,394 [main] [com.lsxp.mapper.UserAndPostMapper.queryPostById] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 08:44:26,397 [main] [com.lsxp.mapper.UserAndPostMapper.queryPostById] - [DEBUG] <==      Total: 3
+2025-07-19 08:44:26,397 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7c7a06ec]
+2025-07-19 08:44:26,399 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7c7a06ec]
+2025-07-19 08:44:26,399 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Returned connection 2088371948 to pool.
+2025-07-19 09:33:01,499 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-19 09:33:01,505 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-19 09:33:01,508 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-19 09:33:01,509 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-19 09:33:01,509 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-19 09:33:01,510 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-19 09:33:01,510 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-19 09:33:01,524 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-19 09:33:01,524 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-19 09:33:01,524 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-19 09:33:01,524 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-19 09:33:01,527 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndPostMapperTest matches criteria [is assignable to Object]
+2025-07-19 09:33:01,527 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndProfileMapperTest matches criteria [is assignable to Object]
+2025-07-19 09:33:01,528 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-19 09:33:01,529 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-19 09:33:01,529 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndPostMapper matches criteria [is assignable to Object]
+2025-07-19 09:33:01,529 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndProfileMapper matches criteria [is assignable to Object]
+2025-07-19 09:33:01,529 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-19 09:33:01,530 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-19 09:33:01,622 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Opening JDBC Connection
+2025-07-19 09:33:01,780 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Created connection 331994761.
+2025-07-19 09:33:01,780 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@13c9d689]
+2025-07-19 09:33:01,784 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists] - [DEBUG] ==>  Preparing: select *, u.id as uid, p.id as pid from users u left join posts p on u.id = p.user_id where u.id = ?
+2025-07-19 09:33:01,804 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 09:33:01,824 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists] - [DEBUG] <==      Total: 3
+2025-07-19 09:33:01,825 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@13c9d689]
+2025-07-19 09:33:01,826 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@13c9d689]
+2025-07-19 09:33:01,827 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Returned connection 331994761 to pool.
+2025-07-19 09:34:34,987 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-19 09:34:34,993 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-19 09:34:34,996 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-19 09:34:34,996 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-19 09:34:34,997 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-19 09:34:34,997 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-19 09:34:34,997 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-19 09:34:35,010 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-19 09:34:35,010 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-19 09:34:35,010 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-19 09:34:35,010 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-19 09:34:35,013 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndPostMapperTest matches criteria [is assignable to Object]
+2025-07-19 09:34:35,013 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndProfileMapperTest matches criteria [is assignable to Object]
+2025-07-19 09:34:35,013 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-19 09:34:35,014 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-19 09:34:35,014 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndPostMapper matches criteria [is assignable to Object]
+2025-07-19 09:34:35,014 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndProfileMapper matches criteria [is assignable to Object]
+2025-07-19 09:34:35,014 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-19 09:34:35,015 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-19 09:34:35,106 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Opening JDBC Connection
+2025-07-19 09:34:35,254 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Created connection 331994761.
+2025-07-19 09:34:35,254 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@13c9d689]
+2025-07-19 09:34:35,258 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists] - [DEBUG] ==>  Preparing: select *, u.id as uid, p.id as pid from users u left join posts p on u.id = p.user_id where u.id = ?
+2025-07-19 09:34:35,280 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 09:34:35,301 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists] - [DEBUG] <==      Total: 3
+2025-07-19 09:34:35,303 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@13c9d689]
+2025-07-19 09:34:35,303 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@13c9d689]
+2025-07-19 09:34:35,304 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Returned connection 331994761 to pool.
+2025-07-19 09:36:45,023 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-19 09:36:45,029 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-19 09:36:45,032 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-19 09:36:45,032 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-19 09:36:45,033 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-19 09:36:45,033 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-19 09:36:45,033 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-19 09:36:45,048 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-19 09:36:45,048 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-19 09:36:45,048 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-19 09:36:45,048 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-19 09:36:45,051 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndPostMapperTest matches criteria [is assignable to Object]
+2025-07-19 09:36:45,051 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndProfileMapperTest matches criteria [is assignable to Object]
+2025-07-19 09:36:45,051 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-19 09:36:45,052 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-19 09:36:45,052 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndPostMapper matches criteria [is assignable to Object]
+2025-07-19 09:36:45,052 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndProfileMapper matches criteria [is assignable to Object]
+2025-07-19 09:36:45,052 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-19 09:36:45,053 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-19 09:36:45,143 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Opening JDBC Connection
+2025-07-19 09:36:45,290 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Created connection 331994761.
+2025-07-19 09:36:45,290 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@13c9d689]
+2025-07-19 09:36:45,293 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists2] - [DEBUG] ==>  Preparing: select id as uid,username from Users where id = ?
+2025-07-19 09:36:45,317 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists2] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 09:36:45,363 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists2] - [DEBUG] <==      Total: 1
+2025-07-19 09:36:45,365 [main] [com.lsxp.mapper.UserAndPostMapper.queryPostById] - [DEBUG] ==>  Preparing: select * FROM posts where user_id = ?
+2025-07-19 09:36:45,366 [main] [com.lsxp.mapper.UserAndPostMapper.queryPostById] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 09:36:45,368 [main] [com.lsxp.mapper.UserAndPostMapper.queryPostById] - [DEBUG] <==      Total: 3
+2025-07-19 09:36:45,368 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@13c9d689]
+2025-07-19 09:36:45,370 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@13c9d689]
+2025-07-19 09:36:45,370 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Returned connection 331994761 to pool.
+2025-07-19 09:36:53,948 [main] [org.apache.ibatis.logging.LogFactory] - [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2025-07-19 09:36:53,955 [main] [org.apache.ibatis.io.VFS] - [DEBUG] Using VFS adapter org.apache.ibatis.io.JBoss6VFS
+2025-07-19 09:36:53,958 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.GroupList matches criteria [is assignable to Object]
+2025-07-19 09:36:53,959 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.Post matches criteria [is assignable to Object]
+2025-07-19 09:36:53,959 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.User matches criteria [is assignable to Object]
+2025-07-19 09:36:53,959 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserGroup matches criteria [is assignable to Object]
+2025-07-19 09:36:53,960 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.pojo.UserProfile matches criteria [is assignable to Object]
+2025-07-19 09:36:53,974 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-19 09:36:53,974 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-19 09:36:53,975 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-19 09:36:53,975 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] PooledDataSource forcefully closed/removed all connections.
+2025-07-19 09:36:53,977 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndPostMapperTest matches criteria [is assignable to Object]
+2025-07-19 09:36:53,978 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndProfileMapperTest matches criteria [is assignable to Object]
+2025-07-19 09:36:53,978 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapperTest matches criteria [is assignable to Object]
+2025-07-19 09:36:53,978 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapperTest matches criteria [is assignable to Object]
+2025-07-19 09:36:53,979 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndPostMapper matches criteria [is assignable to Object]
+2025-07-19 09:36:53,979 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserAndProfileMapper matches criteria [is assignable to Object]
+2025-07-19 09:36:53,979 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserMapper matches criteria [is assignable to Object]
+2025-07-19 09:36:53,979 [main] [org.apache.ibatis.io.ResolverUtil] - [DEBUG] Checking to see if class com.lsxp.mapper.UserProfileMapper matches criteria [is assignable to Object]
+2025-07-19 09:36:54,069 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Opening JDBC Connection
+2025-07-19 09:36:54,218 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Created connection 331994761.
+2025-07-19 09:36:54,218 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@13c9d689]
+2025-07-19 09:36:54,275 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@13c9d689]
+2025-07-19 09:36:54,276 [main] [org.apache.ibatis.transaction.jdbc.JdbcTransaction] - [DEBUG] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@13c9d689]
+2025-07-19 09:36:54,278 [main] [org.apache.ibatis.datasource.pooled.PooledDataSource] - [DEBUG] Returned connection 331994761 to pool.
+2025-07-19 09:37:10,841 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists2] - [DEBUG] ==>  Preparing: select id as uid,username from Users where id = ?
+2025-07-19 09:37:10,861 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists2] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 09:37:10,906 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists2] - [DEBUG] <==      Total: 1
+2025-07-19 09:37:10,907 [main] [com.lsxp.mapper.UserAndPostMapper.queryPostById] - [DEBUG] ==>  Preparing: select * FROM posts where user_id = ?
+2025-07-19 09:37:10,907 [main] [com.lsxp.mapper.UserAndPostMapper.queryPostById] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 09:37:10,910 [main] [com.lsxp.mapper.UserAndPostMapper.queryPostById] - [DEBUG] <==      Total: 3
+2025-07-19 09:37:15,259 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists2] - [DEBUG] ==>  Preparing: select id as uid,username from Users where id = ?
+2025-07-19 09:37:15,280 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists2] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 09:37:15,326 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists2] - [DEBUG] <==      Total: 1
+2025-07-19 09:37:15,328 [main] [com.lsxp.mapper.UserAndPostMapper.queryPostById] - [DEBUG] ==>  Preparing: select * FROM posts where user_id = ?
+2025-07-19 09:37:15,328 [main] [com.lsxp.mapper.UserAndPostMapper.queryPostById] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 09:37:15,332 [main] [com.lsxp.mapper.UserAndPostMapper.queryPostById] - [DEBUG] <==      Total: 3
+2025-07-19 10:11:27,378 [main] [com.lsxp.mapper.UserGroupMapper.getUserGroup] - [DEBUG] ==>  Preparing: select * from user_groups
+2025-07-19 10:11:27,399 [main] [com.lsxp.mapper.UserGroupMapper.getUserGroup] - [DEBUG] ==> Parameters: 
+2025-07-19 10:11:27,449 [main] [com.lsxp.mapper.UserGroupMapper.getUserGroup] - [DEBUG] <==      Total: 5
+2025-07-19 10:11:27,450 [main] [com.lsxp.mapper.UserGroupMapper.selectByGroupId] - [DEBUG] ==>  Preparing: select * from group_list where id = ?
+2025-07-19 10:11:27,451 [main] [com.lsxp.mapper.UserGroupMapper.selectByGroupId] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 10:11:27,453 [main] [com.lsxp.mapper.UserGroupMapper.selectByGroupId] - [DEBUG] <==      Total: 1
+2025-07-19 10:11:27,453 [main] [com.lsxp.mapper.UserGroupMapper.selectByUserId] - [DEBUG] ==>  Preparing: select * from Users where id = ?
+2025-07-19 10:11:27,454 [main] [com.lsxp.mapper.UserGroupMapper.selectByUserId] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 10:11:27,454 [main] [com.lsxp.mapper.UserGroupMapper.selectByUserId] - [DEBUG] <==      Total: 1
+2025-07-19 10:11:27,455 [main] [com.lsxp.mapper.UserGroupMapper.selectByGroupId] - [DEBUG] ==>  Preparing: select * from group_list where id = ?
+2025-07-19 10:11:27,455 [main] [com.lsxp.mapper.UserGroupMapper.selectByGroupId] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 10:11:27,457 [main] [com.lsxp.mapper.UserGroupMapper.selectByGroupId] - [DEBUG] <==      Total: 1
+2025-07-19 10:11:27,457 [main] [com.lsxp.mapper.UserGroupMapper.selectByUserId] - [DEBUG] ==>  Preparing: select * from Users where id = ?
+2025-07-19 10:11:27,457 [main] [com.lsxp.mapper.UserGroupMapper.selectByUserId] - [DEBUG] ==> Parameters: 3(Integer)
+2025-07-19 10:11:27,458 [main] [com.lsxp.mapper.UserGroupMapper.selectByUserId] - [DEBUG] <==      Total: 1
+2025-07-19 10:11:27,458 [main] [com.lsxp.mapper.UserGroupMapper.selectByGroupId] - [DEBUG] ==>  Preparing: select * from group_list where id = ?
+2025-07-19 10:11:27,458 [main] [com.lsxp.mapper.UserGroupMapper.selectByGroupId] - [DEBUG] ==> Parameters: 3(Integer)
+2025-07-19 10:11:27,459 [main] [com.lsxp.mapper.UserGroupMapper.selectByGroupId] - [DEBUG] <==      Total: 1
+2025-07-19 10:11:27,459 [main] [com.lsxp.mapper.UserGroupMapper.selectByUserId] - [DEBUG] ==>  Preparing: select * from Users where id = ?
+2025-07-19 10:11:27,459 [main] [com.lsxp.mapper.UserGroupMapper.selectByUserId] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 10:11:27,460 [main] [com.lsxp.mapper.UserGroupMapper.selectByUserId] - [DEBUG] <==      Total: 1
+2025-07-19 11:19:01,927 [main] [com.lsxp.mapper.UserGroupMapper.getUserGroup2] - [DEBUG] ==>  Preparing: select ug.user_id uguid, ug.group_id uggid, u.id uid, g.id gid, u.username, g.name from user_groups ug inner join users u on ug.user_id = u.id inner join group_list g on ug.group_id = g.id
+2025-07-19 11:19:01,945 [main] [com.lsxp.mapper.UserGroupMapper.getUserGroup2] - [DEBUG] ==> Parameters: 
+2025-07-19 11:19:01,977 [main] [com.lsxp.mapper.UserGroupMapper.getUserGroup2] - [DEBUG] <==      Total: 5
+2025-07-19 11:44:30,664 [main] [com.lsxp.mapper.UserMapper.queryAll] - [DEBUG] ==>  Preparing: SELECT * FROM users
+2025-07-19 11:44:30,684 [main] [com.lsxp.mapper.UserMapper.queryAll] - [DEBUG] ==> Parameters: 
+2025-07-19 11:44:30,700 [main] [com.lsxp.mapper.UserMapper.queryAll] - [DEBUG] <==      Total: 3
+2025-07-19 11:45:05,586 [main] [com.lsxp.mapper.UserMapper.queryAll] - [DEBUG] ==>  Preparing: SELECT * FROM users
+2025-07-19 11:45:05,605 [main] [com.lsxp.mapper.UserMapper.queryAll] - [DEBUG] ==> Parameters: 
+2025-07-19 11:45:05,623 [main] [com.lsxp.mapper.UserMapper.queryAll] - [DEBUG] <==      Total: 3
+2025-07-19 11:56:56,997 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 11:56:57,019 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 11:56:57,037 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 11:57:37,580 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 11:57:37,602 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 11:57:37,620 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 11:57:51,896 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 11:57:51,916 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 11:57:51,934 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 11:58:24,034 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 11:58:24,066 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 11:58:24,090 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 11:58:24,092 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] ==>  Preparing: update users set username = ? where id = ?
+2025-07-19 11:58:24,093 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] ==> Parameters: zyy(String), 2(Integer)
+2025-07-19 11:58:24,105 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] <==    Updates: 1
+2025-07-19 11:58:24,105 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 11:58:24,105 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 11:58:24,106 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 11:59:28,883 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 11:59:28,905 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 11:59:28,926 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 11:59:28,929 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] ==>  Preparing: update users set username = ? where id = ?
+2025-07-19 11:59:28,929 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] ==> Parameters: zyy(String), 2(Integer)
+2025-07-19 11:59:28,935 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] <==    Updates: 1
+2025-07-19 11:59:28,935 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 11:59:28,936 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 11:59:28,937 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 12:12:57,390 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 12:12:57,411 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 12:12:57,431 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 12:12:57,434 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] ==>  Preparing: update users set username = ? where id = ?
+2025-07-19 12:12:57,434 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] ==> Parameters: zyy(String), 2(Integer)
+2025-07-19 12:12:57,438 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] <==    Updates: 1
+2025-07-19 12:12:57,438 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 12:12:57,439 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 12:12:57,439 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 15:00:52,175 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 15:00:52,194 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 15:00:52,212 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 15:00:52,215 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] ==>  Preparing: update users set username = ? where id = ?
+2025-07-19 15:00:52,216 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] ==> Parameters: zyy(String), 2(Integer)
+2025-07-19 15:00:52,221 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] <==    Updates: 1
+2025-07-19 15:00:52,221 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 15:00:52,221 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 15:00:52,221 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 15:01:37,746 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 15:01:37,767 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 15:01:37,784 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 15:01:37,786 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] ==>  Preparing: update users set username = ? where id = ?
+2025-07-19 15:01:37,787 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] ==> Parameters: zyy(String), 2(Integer)
+2025-07-19 15:01:37,789 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] <==    Updates: 1
+2025-07-19 15:01:37,790 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 15:01:37,791 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 15:01:37,792 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:14:02,316 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:14:02,336 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 16:14:02,393 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:14:02,397 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:14:02,397 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 16:14:02,401 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:14:52,147 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:14:52,167 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 16:14:52,185 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:14:52,191 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:14:52,191 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 16:14:52,192 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:15:23,066 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:15:23,089 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 16:15:23,106 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:15:23,113 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:15:23,113 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 16:15:23,114 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:15:36,581 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:15:36,600 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 16:15:36,617 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:15:36,622 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:15:36,623 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 16:15:36,624 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:15:50,266 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:15:50,288 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 16:15:50,308 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:15:50,314 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:15:50,315 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 16:15:50,316 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:16:25,083 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:16:25,102 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 16:16:25,119 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:16:25,125 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:16:25,126 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 16:16:25,126 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:16:25,127 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] ==>  Preparing: update users set username = ? where id = ?
+2025-07-19 16:16:25,127 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] ==> Parameters: lxy(String), 3(Integer)
+2025-07-19 16:16:25,143 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] <==    Updates: 1
+2025-07-19 16:18:04,027 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:18:04,048 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 16:18:04,065 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:18:04,074 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:18:04,074 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 16:18:04,076 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:18:04,080 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] ==>  Preparing: update users set username = ? where id = ?
+2025-07-19 16:18:04,080 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] ==> Parameters: lxy(String), 3(Integer)
+2025-07-19 16:18:04,082 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] <==    Updates: 1
+2025-07-19 16:22:02,018 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:22:02,042 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 16:22:02,061 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:22:02,063 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:22:02,064 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 16:22:02,065 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:22:02,065 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] ==>  Preparing: update users set username = ? where id = ?
+2025-07-19 16:22:02,065 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] ==> Parameters: lxy(String), 3(Integer)
+2025-07-19 16:22:02,068 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] <==    Updates: 1
+2025-07-19 16:22:29,450 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:22:29,469 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 16:22:29,489 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:22:29,491 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] ==>  Preparing: update users set username = ? where id = ?
+2025-07-19 16:22:29,491 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] ==> Parameters: zyy(String), 2(Integer)
+2025-07-19 16:22:29,493 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] <==    Updates: 1
+2025-07-19 16:22:29,493 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:22:29,493 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 16:22:29,494 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:22:45,954 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:22:45,974 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 16:22:45,990 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:22:45,993 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:22:45,993 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 16:22:45,994 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:22:45,994 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] ==>  Preparing: update users set username = ? where id = ?
+2025-07-19 16:22:45,995 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] ==> Parameters: lxy(String), 3(Integer)
+2025-07-19 16:22:45,997 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] <==    Updates: 1
+2025-07-19 16:24:52,049 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:24:52,075 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 16:24:52,096 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:24:53,011 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:24:53,012 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 16:24:53,012 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:24:53,013 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] ==>  Preparing: update users set username = ? where id = ?
+2025-07-19 16:24:53,013 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] ==> Parameters: lxy(String), 3(Integer)
+2025-07-19 16:24:53,015 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] <==    Updates: 1
+2025-07-19 16:24:53,016 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:24:53,016 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 16:24:53,017 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:25:07,704 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:25:07,728 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 16:25:07,746 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:25:07,748 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:25:07,748 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 16:25:07,749 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:25:07,749 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] ==>  Preparing: update users set username = ? where id = ?
+2025-07-19 16:25:07,750 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] ==> Parameters: lxy(String), 3(Integer)
+2025-07-19 16:25:07,752 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] <==    Updates: 1
+2025-07-19 16:25:07,754 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:25:07,754 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 16:25:07,755 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:26:00,295 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:26:00,317 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 16:26:00,333 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:26:00,336 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:26:00,336 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 16:26:00,337 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:26:00,337 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] ==>  Preparing: update users set username = ? where id = ?
+2025-07-19 16:26:00,338 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] ==> Parameters: lxy(String), 3(Integer)
+2025-07-19 16:26:00,340 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] <==    Updates: 1
+2025-07-19 16:26:00,341 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:26:00,341 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 16:26:00,342 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:26:44,065 [main] [com.lsxp.mapper.UserMapper] - [DEBUG] Cache Hit Ratio [com.lsxp.mapper.UserMapper]: 0.0
+2025-07-19 16:26:44,216 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:26:44,238 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 16:26:44,256 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:27:01,564 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:27:01,584 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 16:27:01,600 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:27:01,603 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:27:01,603 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 16:27:01,604 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:27:01,604 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] ==>  Preparing: update users set username = ? where id = ?
+2025-07-19 16:27:01,605 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] ==> Parameters: lxy(String), 3(Integer)
+2025-07-19 16:27:01,607 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] <==    Updates: 1
+2025-07-19 16:27:01,608 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:27:01,608 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 16:27:01,609 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:28:06,458 [main] [com.lsxp.mapper.UserMapper] - [DEBUG] Cache Hit Ratio [com.lsxp.mapper.UserMapper]: 0.0
+2025-07-19 16:28:06,607 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:28:06,627 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 16:28:06,644 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:31:11,012 [main] [com.lsxp.mapper.UserMapper] - [DEBUG] Cache Hit Ratio [com.lsxp.mapper.UserMapper]: 0.0
+2025-07-19 16:31:11,161 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:31:11,181 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 16:31:11,200 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 16:31:11,209 [main] [com.lsxp.mapper.UserMapper] - [DEBUG] Cache Hit Ratio [com.lsxp.mapper.UserMapper]: 0.5
+2025-07-19 16:31:11,210 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] ==>  Preparing: update users set username = ? where id = ?
+2025-07-19 16:31:11,211 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] ==> Parameters: lxy(String), 3(Integer)
+2025-07-19 16:31:11,213 [main] [com.lsxp.mapper.UserMapper.updateUser] - [DEBUG] <==    Updates: 1
+2025-07-19 16:31:11,214 [main] [com.lsxp.mapper.UserMapper] - [DEBUG] Cache Hit Ratio [com.lsxp.mapper.UserMapper]: 0.3333333333333333
+2025-07-19 16:31:11,215 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 16:31:11,215 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
+2025-07-19 16:31:11,216 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1

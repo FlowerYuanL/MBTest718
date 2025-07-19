@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 
+  mapper 根标签：
+  - namespace（必需）：绑定 Mapper 接口的全限定名（包名+接口名）
+  - 作用：建立 XML 文件与 Java 接口的关联[1,6,8](@ref)
+-->
+<mapper namespace="com.lsxp.mapper.UserAndProfileMapper">
+    <resultMap id="UserAndProfileMapR" type="user">
+        <id property="id" column="id"/>
+        <result property="username" column="username"/>
+        <association property="userProfile" javaType="userProfile">
+            <id column="user_id" property="userId"/>
+            <result column="real_name" property="realName"/>
+            <result column="age" property="age"/>
+        </association>
+    </resultMap>
+
+    <select id="queryByName" parameterType="String" resultMap="UserAndProfileMapR">
+        SELECT * FROM Users u
+        left join user_profiles up
+        on u.id = up.user_id
+        where u.username like concat('%',#{name},'%')
+    </select>
+</mapper>

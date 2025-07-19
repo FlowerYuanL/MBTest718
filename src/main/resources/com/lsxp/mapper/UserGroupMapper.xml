@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 
+  mapper 根标签：
+  - namespace（必需）：绑定 Mapper 接口的全限定名（包名+接口名）
+  - 作用：建立 XML 文件与 Java 接口的关联[1,6,8](@ref)
+-->
+<mapper namespace="com.lsxp.mapper.UserGroupMapper">
+
+    <!--
+    多对多查询
+    嵌套结果
+    -->
+    <select id="getUserGroup" parameterType="int" resultMap="UserGroupMap">
+        select * from user_groups
+    </select>
+
+    <resultMap id="UserGroupMap" type="userGroup">
+        <result property="userId" column="user_id"/>
+        <result property="groupId" column="group_id"/>
+        <collection property="users" column="user_id" ofType="user"
+                    select="selectByUserId"/>
+        <collection property="groupList" column="group_id" ofType="groupList"
+                    select="selectByGroupId"/>
+    </resultMap>
+    <select id="selectByUserId" parameterType="integer" resultType="user">
+        select * from Users where id = #{id}
+    </select>
+    <select id="selectByGroupId" parameterType="integer" resultType="groupList">
+        select * from group_list where id = #{id}
+    </select>
+
+    <!-- ========================================================================= -->
+
+    <!--
+    多对多查询
+    嵌套结果
+    -->
+    <select id="getUserGroup2" resultMap="UserGroupMap2">
+        select  ug.user_id uguid, ug.group_id uggid, u.id uid, g.id gid, u.username, g.name
+        from user_groups ug
+                 inner join users u on ug.user_id = u.id
+                 inner join group_list g on ug.group_id = g.id
+    </select>
+    <resultMap id="UserGroupMap2" type="userGroup">
+        <result property="groupId" column="uggid"/>
+        <result property="userId" column="uguid"/>
+        <collection property="users" ofType="user" >
+            <id column="uid" property="id" />
+            <result column="username" property="username"/>
+        </collection>
+        <collection property="groupList" ofType="com.lsxp.pojo.GroupList">
+            <id column="gid" property="id"/>
+            <result column="name" property="name"/>
+        </collection>
+    </resultMap>
+</mapper>
