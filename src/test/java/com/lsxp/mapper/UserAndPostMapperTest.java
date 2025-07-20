@@ -54,4 +54,22 @@ public class UserAndPostMapperTest {
             System.out.println(list);
         }
     }
+
+    @Test
+    public void queryLists3(){
+        int id =1;
+        List<User> lists = userAndPostMapper.queryLists3(id);
+        for(User list : lists){
+            System.out.println(list);
+        }
+    }
+
+    @Test
+    public void queryLists4(){
+        int id =1;
+        List<User> lists = userAndPostMapper.queryLists4(id);
+        for(User list : lists){
+            System.out.println(list);
+        }
+    }
 }

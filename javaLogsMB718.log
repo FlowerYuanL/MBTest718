@@ -1232,3 +1232,38 @@
 2025-07-19 16:31:11,215 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==>  Preparing: select * from users where id = ?
 2025-07-19 16:31:11,215 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] ==> Parameters: 2(Integer)
 2025-07-19 16:31:11,216 [main] [com.lsxp.mapper.UserMapper.findUserById] - [DEBUG] <==      Total: 1
+2025-07-19 19:58:39,117 [main] [com.lsxp.mapper.UserAndProfileMapper.queryAllByIdUser] - [DEBUG] ==>  Preparing: SELECT * FROM users where id = ?
+2025-07-19 19:58:39,139 [main] [com.lsxp.mapper.UserAndProfileMapper.queryAllByIdUser] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 19:58:39,197 [main] [com.lsxp.mapper.UserAndProfileMapper.queryAllByIdUser] - [DEBUG] <==      Total: 1
+2025-07-19 19:58:39,199 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] ==>  Preparing: SELECT * FROM user_profiles WHERE user_id = ?
+2025-07-19 19:58:39,199 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 19:58:39,202 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] <==      Total: 1
+2025-07-19 20:15:22,648 [main] [com.lsxp.mapper.UserAndProfileMapper.queryUserById] - [DEBUG] ==>  Preparing: SELECT u.id uid,u.username uname,p.user_id pid,p.real_name pname,p.age page from users u left join user_profiles p on u.id = p.user_id where u.id = ?
+2025-07-19 20:15:22,672 [main] [com.lsxp.mapper.UserAndProfileMapper.queryUserById] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 20:15:22,691 [main] [com.lsxp.mapper.UserAndProfileMapper.queryUserById] - [DEBUG] <==      Total: 1
+2025-07-19 20:15:41,978 [main] [com.lsxp.mapper.UserAndProfileMapper.queryAllByIdUser] - [DEBUG] ==>  Preparing: SELECT * FROM users where id = ?
+2025-07-19 20:15:41,999 [main] [com.lsxp.mapper.UserAndProfileMapper.queryAllByIdUser] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 20:15:42,041 [main] [com.lsxp.mapper.UserAndProfileMapper.queryAllByIdUser] - [DEBUG] <==      Total: 1
+2025-07-19 20:15:42,043 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] ==>  Preparing: SELECT * FROM user_profiles WHERE user_id = ?
+2025-07-19 20:15:42,044 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 20:15:42,046 [main] [com.lsxp.mapper.UserProfileMapper.queryUserProfileById] - [DEBUG] <==      Total: 1
+2025-07-19 20:37:20,881 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists3] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 20:37:20,903 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists3] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 20:37:20,947 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists3] - [DEBUG] <==      Total: 1
+2025-07-19 20:37:20,949 [main] [com.lsxp.mapper.UserAndPostMapper.queryPost] - [DEBUG] ==>  Preparing: select * from posts where id = ?
+2025-07-19 20:37:20,949 [main] [com.lsxp.mapper.UserAndPostMapper.queryPost] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 20:37:20,953 [main] [com.lsxp.mapper.UserAndPostMapper.queryPost] - [DEBUG] <==      Total: 1
+2025-07-19 20:37:49,497 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists3] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 20:37:49,516 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists3] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 20:37:49,559 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists3] - [DEBUG] <==      Total: 1
+2025-07-19 20:37:49,560 [main] [com.lsxp.mapper.UserAndPostMapper.queryPost] - [DEBUG] ==>  Preparing: select * from posts where id = ?
+2025-07-19 20:37:49,561 [main] [com.lsxp.mapper.UserAndPostMapper.queryPost] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 20:37:49,563 [main] [com.lsxp.mapper.UserAndPostMapper.queryPost] - [DEBUG] <==      Total: 1
+2025-07-19 20:38:41,739 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists3] - [DEBUG] ==>  Preparing: select * from users where id = ?
+2025-07-19 20:38:41,760 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists3] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 20:38:41,801 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists3] - [DEBUG] <==      Total: 1
+2025-07-19 20:38:41,803 [main] [com.lsxp.mapper.UserAndPostMapper.queryPost] - [DEBUG] ==>  Preparing: select * from posts where user_id = ?
+2025-07-19 20:38:41,803 [main] [com.lsxp.mapper.UserAndPostMapper.queryPost] - [DEBUG] ==> Parameters: 1(Integer)
+2025-07-19 20:38:41,806 [main] [com.lsxp.mapper.UserAndPostMapper.queryPost] - [DEBUG] <==      Total: 3
+2025-07-19 20:47:58,948 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists4] - [DEBUG] ==>  Preparing: select u.id uid,u.username uname,p.id pid,p.user_id puid,p.content pcontent from users u inner join posts p on u.id = p.user_id where u.id=?
+2025-07-19 20:47:58,969 [main] [com.lsxp.mapper.UserAndPostMapper.queryLists4] - [DEBUG] ==> Parameters: 1(Integer)

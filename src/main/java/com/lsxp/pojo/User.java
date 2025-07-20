@@ -20,4 +20,6 @@ public class User implements Serializable {
     private UserProfile userProfile;
 
     private List<Post> postList;
+
+    private List<GroupList> groupList;
 }

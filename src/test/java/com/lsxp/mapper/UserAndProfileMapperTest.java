@@ -36,4 +36,18 @@ public class UserAndProfileMapperTest {
             System.out.println("user = " + user);
         }
     }
+
+    @Test
+    public void queryAllByIdUser(){
+        int id = 1;
+        User user = userAndProfileMapper.queryAllByIdUser(id);
+        System.out.println(user);
+    }
+
+    @Test
+    public void queryUserById(){
+        int id = 1;
+        User user = userAndProfileMapper.queryUserById(id);
+        System.out.println(user);
+    }
 }
